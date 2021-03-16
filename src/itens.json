@@ -1,0 +1,13 @@
+[
+  { "id": 1, "task": "Estudar React", "status": false },
+  { "id": 2, "task": "Comer frutas", "status": false },
+  { "id": 3, "task": "Se hidratar", "status": false },
+  { "id": 4, "task": "Assistir TV", "status": false },
+  { "id": 5, "task": "Ir para a Academia", "status": false },
+  { "id": 6, "task": "Jogar Vídeo Game", "status": false },
+  { "id": 7, "task": "Brincar com as crianças", "status": false },
+  { "id": 8, "task": "Formatar o PC", "status": false },
+  { "id": 9, "task": "Ouvir música", "status": false },
+  { "id": 10, "task": "Pagar boleto", "status": false },
+  { "id": 11, "task": "Tirar uma soneca", "status": false }
+]

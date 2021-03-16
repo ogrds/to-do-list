@@ -1,0 +1,56 @@
+.container {
+  padding: 1rem 2rem;
+
+  & > main {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 1rem;
+  }
+
+  & > main > section > ul {
+    text-align: center;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  & > main > section > ul > li {
+    padding: 1rem;
+    list-style: none;
+    border: 1px solid black;
+
+    &:not(.taskFinished):hover {
+      background-color: #f0f0f0;
+    }
+
+    & > label {
+      cursor: pointer;
+    }
+
+    & > label {
+      cursor: pointer;
+    }
+
+    & > label > input {
+      margin-right: 0.5rem;
+      display: none;
+    }
+  }
+}
+
+.taskFinished {
+  text-decoration: line-through !important;
+  color: #d1d1d1;
+  cursor: not-allowed !important;
+
+  border: 1px solid #e8e8e8 !important;
+
+  & > label {
+    cursor: not-allowed !important;
+  }
+}
+
+.divider {
+  border: 1px solid #e8e8e8;
+}
